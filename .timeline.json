@@ -1,0 +1,85 @@
+{
+  "timeline_index": 48,
+  "planner": {
+    "Team Leader": {
+      "1": {
+        "task_id": "1",
+        "dependent_task_ids": [],
+        "instruction": "Create a portfolio website called Trilogoweb using Vue 2 that demonstrates how the client helps businesses grow through high-converting websites. The website should have a trust-building design, showcase real results with visual case studies, emphasize COD focus, feature Telegram order integration, and have conversion-driven call-to-actions. The design should reflect simplicity, speed, and clarity, optimized for performance and focused on results.",
+        "task_type": "general",
+        "code": "",
+        "result": "",
+        "is_success": false,
+        "is_finished": false,
+        "assignee": "Alex",
+        "start_at": 1748961701.179378
+      },
+      "current_task_id": "1"
+    }
+  },
+  "gallery_last_file": {},
+  "timeline_status": {
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 1,
+    "5": 1,
+    "6": 1,
+    "7": 1,
+    "8": 1,
+    "9": 1,
+    "10": 1,
+    "11": 1,
+    "12": 1,
+    "14": 1,
+    "16": 1,
+    "18": 1,
+    "20": 1,
+    "22": 1,
+    "23": 1,
+    "24": 1,
+    "26": 1,
+    "28": 1,
+    "30": 1,
+    "31": 1,
+    "32": 1,
+    "34": 1,
+    "35": 1,
+    "36": 1,
+    "37": 1,
+    "38": 1,
+    "39": 1,
+    "40": 1,
+    "41": 1,
+    "42": 1,
+    "43": 1,
+    "44": 0,
+    "45": 1,
+    "46": 1,
+    "47": 1,
+    "48": 1
+  },
+  "preview_servers": {
+    "2586da44-2461-4683-b2ea-3260f94baec0": {
+      "role": "Alex",
+      "port": 5173,
+      "subdomain": "trilogoweb-or2tr-umc02-4baec0",
+      "server": "461b46cc-c264-4548-8279-485fb2dfdd36",
+      "cmd": "cd /data/chats/umc02/workspace/vue_template && pnpm run dev",
+      "timeline_index": 44,
+      "status": "initializing",
+      "logs": [
+        "Restarting the service ...\n",
+        "\n",
+        "\n",
+        "> vue-template@0.0.0 dev /data/chats/umc02/workspace/vue_template\n",
+        "> vite\n",
+        "\n",
+        "\n",
+        "  VITE v5.4.3  ready in 6449 ms\n",
+        "\n"
+      ]
+    }
+  },
+  "deploy": {}
+}
