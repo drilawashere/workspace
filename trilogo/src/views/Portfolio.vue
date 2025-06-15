@@ -115,7 +115,7 @@
             </div>
             <p class="client-quote">"{{ selectedProject.testimonial.quote }}"</p>
             <div class="testimonial-author">
-              <strong>{{ selectedProject.testimonial.name }}</strong>, {{ selectedProject.testimonial.position }}
+              <strong>{{ selectedProject.testimonial.authorName }}</strong>, {{ selectedProject.testimonial.position }}
             </div>
           </div>
         </div>
@@ -197,7 +197,7 @@ export default {
             'Telegram notifications for high-value orders'
           ],
           testimonial: {
-            quote: 'The conversion rate on our product pages jumped from 2.3% to 8.7% after implementing Trilogoweb's design recommendations. The ROI was immediate and substantial – we recouped our investment within the first month.',
+            quote: 'The conversion rate on our product pages jumped from 2.3% to 8.7% after implementing Trilogoweb\'s design recommendations. The ROI was immediate and substantial – we recouped our investment within the first month.',
             name: 'Michael Chen',
             position: 'CEO, TechGear'
           }
@@ -223,11 +223,11 @@ export default {
             'Instant Telegram notifications with order details',
             'Automated inventory management integration'
           ],
-          testimonial: {
-            quote: 'As a small business relying on cash-on-delivery, having a website that's optimized for this model has been game-changing. Our order volume doubled in just weeks, and we've maintained a 98% fulfillment rate thanks to the efficient notification system.',
-            name: 'Aisha Rahman',
-            position: 'Founder, Bloom Boutique'
-          }
+          // testimonial: {
+          //   quote: 'As a small business relying on cash-on-delivery, having a website that's optimized for this model has been game-changing. Our order volume doubled in just weeks, and we've maintained a 98% fulfillment rate thanks to the efficient notification system.',
+          //   name: 'Aisha Rahman',
+          //   position: 'Founder, Bloom Boutique'
+          // }
         },
         {
           id: 4,
@@ -241,7 +241,7 @@ export default {
             orders: '95+',
             speed: '1.9x'
           },
-          challenge: 'Legal Solutions had an outdated website that wasn't generating quality leads. Their consultation booking process required multiple phone calls, leading to scheduling inefficiencies and lost opportunities.',
+          challenge: 'Legal Solutions had an outdated website that wasn\'t generating quality leads. Their consultation booking process required multiple phone calls, leading to scheduling inefficiencies and lost opportunities.',
           solution: 'We created a professional yet approachable design with clear practice area sections. An integrated booking system with qualification questions helped filter leads, and the Telegram notification system alerted attorneys immediately when high-value consultations were booked.',
           features: [
             'Interactive practice area exploration',
@@ -251,7 +251,7 @@ export default {
             'Client testimonial video integration'
           ],
           testimonial: {
-            quote: 'The new website has transformed our client acquisition process. We're now getting more qualified consultation requests, and the instant notifications allow us to respond within minutes, which has significantly improved our conversion from inquiry to retained client.',
+            quote: 'The new website has transformed our client acquisition process. We\'re now getting more qualified consultation requests, and the instant notifications allow us to respond within minutes, which has significantly improved our conversion from inquiry to retained client.',
             name: 'David Park',
             position: 'Managing Partner, Legal Solutions'
           }
@@ -268,7 +268,7 @@ export default {
             orders: '210+',
             speed: '3.0x'
           },
-          challenge: 'Fitness Revolution's website wasn't effectively showcasing their unique approach and class offerings. The class booking system was cumbersome, and they had no way to capture leads from visitors who weren't ready to commit.',
+          challenge: 'Fitness Revolution\'s website wasn\'t effectively showcasing their unique approach and class offerings. The class booking system was cumbersome, and they had no way to capture leads from visitors who weren\'t ready to commit.',
           solution: 'We designed an engaging, high-energy website that communicated their brand value. We implemented a streamlined class booking system and created a lead capture strategy offering a free class in exchange for contact information.',
           features: [
             'Interactive class schedule with one-click booking',
@@ -295,7 +295,7 @@ export default {
             orders: '45+',
             speed: '2.7x'
           },
-          challenge: 'BuildRight's website failed to showcase the quality of their work effectively. Their contact form was generating unqualified leads, wasting time on projects that weren't a good fit for their services.',
+          challenge: 'BuildRight\'s website failed to showcase the quality of their work effectively. Their contact form was generating unqualified leads, wasting time on projects that weren\'t a good fit for their services.',
           solution: 'We created a visually-focused website with high-quality project galleries and detailed case studies. We implemented a multi-step qualification form that helped filter leads based on project type, budget, and timeline.',
           features: [
             'Interactive project gallery with filtering options',
@@ -304,11 +304,11 @@ export default {
             'Qualification-based contact form',
             'Priority lead notifications via Telegram'
           ],
-          testimonial: {
-            quote: 'The quality of leads coming through our website has dramatically improved. We're now spending time on qualified prospects only, and our project pipeline has increased by 125%. The instant Telegram notifications ensure we respond to potential clients quickly.',
-            name: 'Robert Wilson',
-            position: 'CEO, BuildRight Construction'
-          }
+          // testimonial: {
+          //   quote: 'The quality of leads coming through our website has dramatically improved. We're now spending time on qualified prospects only, and our project pipeline has increased by 125%. The instant Telegram notifications ensure we respond to potential clients quickly.',
+          //   authorName: 'Robert Wilson',
+          //   position: 'CEO, BuildRight Construction'
+          // }
         }
       ]
     }

@@ -49,7 +49,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
+  base: '/',
   routes,
   // Scroll to the top of the page when navigating to a new route
   scrollBehavior(to, from, savedPosition) {
